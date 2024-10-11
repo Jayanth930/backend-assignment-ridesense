@@ -1,0 +1,27 @@
+# Get all bikes 
+GET http://localhost:3500/api/v1/bikes
+
+
+### Add a new bike 
+POST http://localhost:3500/api/v1/bikes
+Content-Type : application/json
+
+{
+    "make" : "Latest Latest Bike",
+    "model" : "Ranger 205",
+    "year" : "2024",
+    "type" : "Mountain"
+}
+
+
+### Update a existing bike 
+PUT http://localhost:3500/api/v1/bikes/c3307572-ce44-477a-8c11-6eb0acb8b9a9
+Content-Type: application/json
+
+{
+    "year" : "2024"
+}
+
+
+### Delete a particular bike
+DELETE http://localhost:3500/api/v1/bikes/44d88ec5-c757-4147-9e91-0bb4c2b244fa
