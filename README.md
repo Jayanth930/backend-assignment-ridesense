@@ -29,12 +29,17 @@ git clone https://github.com/Jayanth930/backend-assignment-ridesense
 ```sh
 npm install 
 ```
-3. Setup Sqlite db by running
+3. Setup dotenv
+```sh
+touch .env
+```
+* And add PORT = 3500 in .env file
+4. Setup Sqlite db by running
 ```sh 
 npm run migrate:dev
 ```
 * The above script initializes and applies migrations or to be precise creates schema in sqlite 
-4. Now install the prisma client by running
+5. Now install the prisma client by running
 ```sh
 npm i @prisma/client
 ```
