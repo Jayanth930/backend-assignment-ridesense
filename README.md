@@ -4,7 +4,6 @@
 ## About The Project
  As stated in the assignment it contains all four basic CRUD api's
 
-
 ### Getting Started
 
  For this project Node , npm should be installed in your computer
@@ -69,8 +68,8 @@ Content-Type : application/json
 
 API : Update an Existing Bike  
 METHOD : **PUT**  
-ENDPOINT : http://localhost:3500/api/v1/bikes/:id
-id : UUID   
+ENDPOINT : http://localhost:3500/api/v1/bikes/:id  
+id : UUID  
 Content-Type : application/json  
 {  
     &nbsp; &nbsp; &nbsp; "make" / "year" / "model" / "type"     
