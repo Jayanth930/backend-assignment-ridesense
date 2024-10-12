@@ -50,6 +50,10 @@ npm i @prisma/client
 npm run start 
 ```
 
+### Trouble Shooting Guide
+* The major problem might arise would be due to verison problem and also with global packages verion vs local package version
+* In that regard one issue I faced was due to verison difference between global and local typescript version , so if any issues faced regarding setup , its better to uninstall global typescript package.
+
 ### Available API End points
 
 API : To Get all Bikes  
