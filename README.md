@@ -33,12 +33,13 @@ npm install
 ```sh
 touch .env
 ```
-* And add PORT = 3500 in .env file
+* Add PORT = 3500 in .env file
+* Add DATABASE_URL="file:./dev.db"
 4. Setup Sqlite db by running
 ```sh 
 npm run migrate:dev
 ```
-* The above script initializes and applies migrations or to be precise creates schema in sqlite 
+* The above script initializes and applies migrations or  creates schema in sqlite
 5. Now install the prisma client by running
 ```sh
 npm i @prisma/client
