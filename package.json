@@ -9,7 +9,7 @@
     "start": "tsc --build && node dist/app.js",
     "migrate:create": "prisma migrate dev --create-only",
     "migrate:dev": "prisma migrate dev",
-    "deploy": "prims migare deploy",
+    "deploy": "prisma migrate deploy",
     "seed": "tsc prisma/seed.ts && node prisma/seed.js"
   },
   "keywords": [],
